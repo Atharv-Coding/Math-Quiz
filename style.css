@@ -1,0 +1,24 @@
+body{
+    background-color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#div1{
+    height: 120px;
+}
+#div1 h3{
+    font-size: 30px;
+}
+#div2{
+    height: 120px;
+}
+#div2 h3{
+    font-size: 30px;
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid rgb(219, 26, 219);
+    padding: 10px;
+    text-align: left;
+    float: none;
+}

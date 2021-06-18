@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>playerQue</title>
+  </head>
+  <body>
+      <h4 id="player1name"></h4><span id="ply1score"></span>
+      <h4 id="player2name"></h4><span id="ply2score"></span>
+      <div class="container">
+          <center>
+              <h2 class="text-light">Math Quiz Game</h2>
+              <h3 id="playerQue"></h3>
+              <h3 id="playerAns"></h3>
+
+              <div id="output"></div><br><br>
+
+              <h4>Number1</h4>
+              <input type="number" id="number1" placeholder="Enter The First Number: "><br><br>
+              
+              <h4>Number2</h4>
+              <input type="number" id="number2" placeholder="Enter The Second Number: "><br><br>
+
+              <button class="btn btn-info" onclick="send()">Send</button>
+
+          </center>
+      </div>
+  </body>
+  <script src='script-2.js'></script>
+</html>
